@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-shadow: 1px 1px 1px rgb(206, 99, 0);
+    font-weight: 900;
+}
+.topo{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: rgb(41, 160, 41);
+    color: white;
+    padding: 0 20px;
+    box-shadow: 0px 2px 5px rgb(14, 75, 32);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topo > img{
+    height: 93%;
+}
+.topo a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+.topo a.nav-link {
+    display: inline-block;
+}
+.topo a.nav-link:hover {
+    background-color: rgb(255, 255, 255); 
+}
+.carousel-item img{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
+    filter: brightness(80%);
+}
+.box{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 25px;
+}

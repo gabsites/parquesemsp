@@ -1,0 +1,44 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-shadow: 1px 1px 1px rgb(7, 7, 7);
+font-weight: 900;
+background-image: url(fotos/parque-letna-praga_0.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+.topo{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: rgb(41, 160, 41);
+    color: white;
+    padding: 0 20px;
+    box-shadow: 0px 2px 5px rgb(14, 75, 32);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topo > img{
+    height: 93%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.centro img{
+    height: 500px;
+    width: 350px;
+    margin-top: 250px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+.centro1{
+    color: rgb(0, 0, 0);
+    margin-left: 300px
+}
+
+
+
